@@ -1,3 +1,4 @@
+<html><body>
 <?php
  error_reporting(0);
  
@@ -86,3 +87,5 @@
  $data = json_decode($response,true);
  print($data["Results"][0]["Asset"]["Id"]);
 ?>
+</body>
+</html>
